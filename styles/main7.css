@@ -26,11 +26,11 @@ img{
 main{
     clear: both;
 }
-h3{
+main h3{
     margin-top: 3em;
     font-size: 105%;
 }
-li{
+#list {
     line-height: 1.5em;
 }
 footer{
