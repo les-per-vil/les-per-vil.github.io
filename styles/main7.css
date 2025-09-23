@@ -12,6 +12,7 @@ body {
     border: 2px solid black; 
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
+
     background-image:url("printpaw.jpeg");
     background-repeat: repeat-y;
     background-attachment: fixed;
@@ -55,7 +56,16 @@ main nav {
     box-shadow: 3px 3px 4px 4px orangered;
     padding: .5em;
 }
-
+#list{
+    line-height: 1.5em
+}
+div.contact {
+    margin: 1.5em, 2em, 1.5em;
+    border: 5px dashed palevioletred;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px orangered;
+    padding: 1em
+}
 footer p.copyright{
     text-align: center;
     font-size: 80%;
