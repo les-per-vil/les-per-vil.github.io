@@ -43,7 +43,7 @@ main{
 }
 main h3{
     font-size: 105%;
-    margin: 1.5em, 2em, 1.5em;
+    margin: 1.5em 2em 1.5em;
     border: 5px dashed palevioletred;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px orangered;
@@ -60,7 +60,7 @@ main nav {
     line-height: 1.5em
 }
 div.contact {
-    margin: 1.5em, 2em, 1.5em;
+    margin: 1.5em 2em 1.5em;
     border: 5px dashed palevioletred;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px orangered;
