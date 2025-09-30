@@ -66,5 +66,5 @@ article p:: ::first-letter{
 aside{
     width: 20%;
     float: right;
-    background-color: coral;
+    background-color: rgb(207, 184, 176);
 }
