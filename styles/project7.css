@@ -64,7 +64,7 @@ article p:: ::first-letter{
     color: beige;
 }
 aside{
-    width:20%;
-    float:right;
+    width: 20%;
+    float: right;
     background-color: coral;
 }
