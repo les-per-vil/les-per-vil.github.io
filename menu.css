@@ -7,9 +7,9 @@ width: 175px;
 padding: 1em 0; /* padding above and below a
 elements */
 text-decoration: none;
-background-color: blue;
+background-color: rgb(122, 14, 84);
 color: white;
 font-weight: bold;
 border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }
-#nav_menu ul li a.current { color: yellow; }
+#nav_menu ul li a.current { color: rgb(108, 13, 48); }
