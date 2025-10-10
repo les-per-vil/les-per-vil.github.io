@@ -79,7 +79,7 @@ p.fixed{
     width: auto;
     position: fixed;
     background-color: rgba(203, 49, 11, 0.694);
-    bottom: 300px;
+    bottom: 150px;
     right: 20px;
     border: 4px solid salmon;
     padding: 30px;
