@@ -68,6 +68,10 @@ aside{
     background-color: rgb(207, 184, 176);
     padding: 15px;
 }
+header{
+    clear: both;
+    border-bottom: 2px solid black;
+}
 footer{
     clear: both;
     border-top: 2px solid maroon;
