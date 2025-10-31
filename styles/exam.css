@@ -123,6 +123,10 @@ footer p.copyright {
     text-align: center;
     font-size: 80%;
 }
+footer p.social{
+    text-align: center;
+    font-size: 80%;
+}
 p.fixed {
     width: auto;
     position: fixed;
