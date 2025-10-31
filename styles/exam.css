@@ -4,3 +4,24 @@ article p::first-letter{
     font-style: italic;
     color: lightcoral;
 }
+aside{
+    width: 20;
+    float: right;
+    background-color: rgb(207, 184, 176);
+    padding: 15px;
+}
+#nav_menu ul { list-style-type: none; }
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+text-align: center;
+display: block;
+width: 175px;
+padding: 1em 0; /* padding above and below a
+elements */
+text-decoration: none;
+background-color: rgb(122, 14, 84);
+color: white;
+font-weight: bold;
+border-right: 2px solid white; }
+#nav_menu ul li a.lastitem { border-right: none; }
+#nav_menu ul li a.current { color: rgb(32, 11, 19); }
