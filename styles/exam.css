@@ -93,10 +93,6 @@ aside{
 aside ol{
     list-style-type: upper-roman;
 }
-header{
-    clear: both;
-    border-bottom: 2px solid black;
-}
 footer{
     clear: both;
     border-top: 2px solid blue;
