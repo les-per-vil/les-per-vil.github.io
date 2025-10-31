@@ -43,12 +43,12 @@ a:focus, a:hover{
 }
 h1{
     font-size: 175%;
-    color: cornflowerblue;
+    color: blue;
     text-indent: 30px;
 }
 h2{
     font-size: 130%;
-    color: #044132;
+    color: blue;
     text-indent: 30px;
 }
 img{
