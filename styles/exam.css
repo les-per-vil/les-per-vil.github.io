@@ -114,16 +114,9 @@ aside a {
 aside a:hover {
     color: #0077cc;
 }
-footer {
-    clear: both;
-    border-top: 2px solid blue;
-}
-footer .footer-container {
-    display: flex;                  
-    align-items: center;   
-    justify-content: center;         
-    padding: 10px 1.5em;
-    border-top: 2px solid blue;
+footer p {
+    text-align: center;  /* centers the whole line */
+    font-size: 0.9em;
 }
 p.fixed {
     width: auto;
