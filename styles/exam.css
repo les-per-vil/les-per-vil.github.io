@@ -1,150 +1,135 @@
-html {
-  background-image: linear-gradient(to left, rgba(203, 49, 11, 0.694) 0%, #a03024 100%);
+html{ 
+    background-image: linear-gradient(to left, white(203, 49, 11, 0.694) 0%, white#a03024 100%);
+ }
+header{
+     clear: both; border-bottom: 2px solid blue
+ }
+ #nav_menu ul {
+     list-style-type: none; 
+} 
+#nav_menu ul li { 
+    float: left; 
 }
-header {
-  clear: both;
-  border-bottom: 2px solid blue;
-}
-#nav_menu {
-  position: fixed;               
-  left: 0;
-  width: 100%;                   
-  background-color: blue;        
-  border-bottom: 3px solid blue; 
-  z-index: 1000;                
-}
-#nav_menu::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-#nav_menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-#nav_menu ul li {
-  float: left;
-}
-#nav_menu ul li a {
-  text-align: center;
-  display: block;
-  width: 175px;
-  padding: 1em 0;
-  text-decoration: none;
-  background-color: blue;
-  color: white;
-  font-weight: bold;
-  border-right: 2px solid white;
-}
+ #nav_menu ul li a { 
+    text-align: center; 
+    display: block; 
+    width: 175px; 
+    padding: 1em 0; 
+    text-decoration: none; 
+    background-color: blue; 
+    color: white; 
+    font-weight: bold; 
+    border-right: 2px solid white; 
+    border-bottom: blue;
+} 
 #nav_menu ul li a.lastitem {
-  border-right: none;
+     border-right: none; 
 }
-#nav_menu ul li a.current {
-  color: rgb(32, 11, 19);
+ #nav_menu ul li a.current { 
+    color: rgb(32, 11, 19); 
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 100%;
-  width: 95%;
-  background-color: white;
-  margin: 100px auto;
-  padding: 15px 1.5em;
-  border: 2px solid white;
-  border-radius: 25px;
-  box-shadow: 5px 5px 0 0;
-  background-image: url("../images/l.png");
-  background-position: right;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
+body{
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 100%; 
+     width: 95%; 
+     background-color: white; 
+     margin: 70px auto lightblue; 
+     padding: 15px 1.5em; 
+     border: 2px solid white; 
+     border-radius: 25px; 
+     box-shadow: 5px 5px 0 0; 
+     background-image:url("../images/l.png"); 
+     background-position: right; 
+     background-repeat: repeat-y;
+     background-attachment: fixed;
 }
-a:focus, a:hover {
-  font-style: italic;
-  color: blue;
-  border: 3px lightblue;
-  border-style: dotted solid;
-}
-h1 {
-  font-size: 95%;
-  color: blue;
-  text-indent: 30px;
-  column-span: all;
+a:focus, 
+a:hover{ 
+    font-style: italic; 
+    color:blue; 
+    border: 3px lightblue; 
+    border-style: dotted solid; 
+}h1 {
+    font-size: 95%;
+    color: blue;
+    text-indent: 30px;
+    column-span: all;
 }
 h2 {
-  font-size: 130%;
-  color: blue;
-  text-indent: 30px;
+    font-size: 130%;
+    color: blue;
+    text-indent: 30px;
 }
 img {
-  float: left;
-  margin-left: 2em;
+    float: left;
+    margin-left: 2em;
 }
 .shadow {
-  text-shadow: 2px 2px 2px rgb(0, 0, 220);
+    text-shadow: 2px 2px 2px rgb(220, 0, 0);
 }
 article {
-  clear: left;
-  width: 70%;
-  float: left;
-  column-count: 3;
-  column-rule: 2px dashed blue;
-  column-gap: 2em;
-  margin-left: 2em;
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 3;
+    column-rule: 2px dashed blue;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 article h3 {
-  column-span: all;
+    column-span: all;
 }
 article img {
-  float: left;
-  margin-right: 1em;
-  margin-bottom: 1em;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 article p::first-letter {
-  font-size: 3em;
-  font-weight: bold;
-  font-style: italic;
-  color: black;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
 }
 aside {
-  width: 20%;
-  float: right;
-  background-color: lightblue;
-  padding: 15px;
-  list-style-position: outside;
+    width: 20%;
+    float: right;
+    background-color: lightblue;
+    padding: 15px;
+    list-style-position: outside;
 }
 aside ol {
-  list-style-type: upper-roman;
+    list-style-type: upper-roman;
 }
 aside ul {
-  list-style-type: disc;
+    list-style-type: disc;
 }
 aside ol[type="a"] {
-  list-style-type: lower-alpha;
+    list-style-type: lower-alpha;
 }
 aside a {
-  text-decoration: none;
-  color: blue;
+    text-decoration: none;
+    color: blue;
 }
 aside a:hover {
-  color: #0077cc;
+    color: #0077cc;
 }
 footer {
-  clear: both;
-  border-top: 2px solid blue;
+    clear: both;
+    border-top: 2px solid blue;
 }
 footer p.copyright {
-  text-align: center;
-  font-size: 80%;
+    text-align: center;
+    font-size: 80%;
 }
 p.fixed {
-  width: auto;
-  position: fixed;
-  background-color: rgba(203, 49, 11, 0.694);
-  bottom: 150px;
-  right: 20px;
-  border: 4px solid blue;
-  padding: 30px;
-  box-shadow: 2px 2px 5px lightskyblue;
-  font-weight: bold;
-  border-radius: 5px;
+    width: auto;
+    position: fixed;
+    background-color: rgba(203, 49, 11, 0.694);
+    bottom: 150px;
+    right: 20px;
+    border: 4px solid blue;
+    padding: 30px;
+    box-shadow: 2px 2px 5px lightskyblue;
+    font-weight: bold;
+    border-radius: 5px;
 }
