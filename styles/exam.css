@@ -120,7 +120,8 @@ footer {
 }
 footer .footer-container {
     display: flex;                  
-    align-items: center;            
+    align-items: center;   
+    justify-content: center;         
     padding: 10px 1.5em;
     border-top: 2px solid blue;
 }
