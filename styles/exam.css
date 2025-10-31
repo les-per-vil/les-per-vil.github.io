@@ -34,12 +34,14 @@ body{
     background-position: right;
     background-repeat: repeat-y;
     background-attachment: fixed;
+
 }
 a:focus, a:hover{
     font-style: italic;
     color:blue;
     border: 3px lightblue;
     border-style: dotted solid;
+    border-bottom: 2px solid blue;
 }
 h1{
     font-size: 175%;
