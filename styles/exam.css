@@ -84,6 +84,9 @@ aside{
     padding: 15px;
     list-style-position:outside;
 }
+aside ol{
+    list-style-type: upper-roman;
+}
 header{
     clear: both;
     border-bottom: 2px solid black;
