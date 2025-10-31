@@ -3,7 +3,7 @@ html{
 }
 header{
     clear: both;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid blue;
 }
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
