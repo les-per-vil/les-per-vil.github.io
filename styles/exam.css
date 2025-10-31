@@ -33,7 +33,7 @@ body{
      font-size: 100%; 
      width: 95%; 
      background-color: white; 
-     margin: 70px auto lightblue; 
+     margin: 70px auto rgb(139, 195, 213); 
      padding: 15px 1.5em; 
      border: 2px solid white; 
      border-radius: 25px 25px 25px 25px; 
