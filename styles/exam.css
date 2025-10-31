@@ -3,7 +3,7 @@ html{
 }
 header{
     clear: both;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid blue
 }
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
@@ -34,7 +34,6 @@ body{
     background-position: right;
     background-repeat: repeat-y;
     background-attachment: fixed;
-    border-bottom: 2px solid blue
 }
 a:focus, a:hover{
     font-style: italic;
