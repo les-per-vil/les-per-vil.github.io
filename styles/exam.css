@@ -114,9 +114,8 @@ aside a {
 aside a:hover {
     color: #0077cc;
 }
-footer {
-    border-top: 2px solid blue;
-    padding: 10px 1.5em;
+footer p.{
+    text-align: center;
 }
 p.fixed {
     width: auto;
