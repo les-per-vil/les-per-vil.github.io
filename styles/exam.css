@@ -15,7 +15,7 @@ padding: 1em 0; /* padding above and below a
 elements */
 text-decoration: none;
 background-color: blue;
-color: white;
+color: blue;
 font-weight: bold;
 border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }
