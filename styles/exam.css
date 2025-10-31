@@ -1,6 +1,10 @@
 html{
     background-image: linear-gradient(to left, rgba(203, 49, 11, 0.694) 0%, #a03024 100%);
 }
+header{
+    clear: both;
+    border-bottom: 2px solid black;
+}
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
