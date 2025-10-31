@@ -37,8 +37,8 @@ body{
 }
 a:focus, a:hover{
     font-style: italic;
-    color:coral;
-    border: 3px orangered;
+    color:blue;
+    border: 3px lightblue;
     border-style: dotted solid;
 }
 h1{
@@ -56,14 +56,14 @@ img{
     margin-left: 2em;
 }
 .shadow{
-    text-shadow: 2px 2px 2px rgb(220, 0, 0);
+    text-shadow: 2px 2px 2px blue(220, 0, 0);
 }
 article{
     clear:left;
     width: 70%;
     float: left;
     column-count: 3;
-    column-rule: 2px dotted blue;
+    column-rule: 2px dashed blue;
     column-gap: 2em;
     margin-left: 2em;
 }
