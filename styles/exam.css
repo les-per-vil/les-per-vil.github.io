@@ -86,7 +86,7 @@ article p::first-letter{
 aside{
     width: 20;
     float: right;
-    background-color: blue;
+    background-color: lightblue;
     padding: 15px;
     list-style-position:outside;
 }
