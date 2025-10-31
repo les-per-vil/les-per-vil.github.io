@@ -114,9 +114,16 @@ aside a {
 aside a:hover {
     color: #0077cc;
 }
-footer p {
-    text-align: center;  /* centers the whole line */
-    font-size: 0.9em;
+footer {
+    width: 95%; /* same as body width */
+    margin: 0 auto; /* center horizontally */
+    border-top: 2px solid blue;
+    position: fixed;   /* stay at bottom */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: lightgray; /* optional */
+    padding: 10px 1.5em;
 }
 p.fixed {
     width: auto;
