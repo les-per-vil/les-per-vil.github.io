@@ -117,6 +117,7 @@ aside a:hover {
 footer {
     text-align: center;
     clear: both;
+    border-top: blue solid;
 }
 p.fixed {
     width: auto;
