@@ -100,7 +100,7 @@ aside ol[type="a"] {
 }
 aside a {
   text-decoration: none;
-  color: #333;
+  color: blue;
 }
 
 aside a:hover {
