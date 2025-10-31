@@ -44,7 +44,7 @@ a:focus, a:hover{
     border-bottom: 2px solid blue;
 }
 h1{
-    font-size: 175%;
+    font-size: 100%;
     color: blue;
     text-indent: 30px;
 }
