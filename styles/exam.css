@@ -50,6 +50,7 @@ a:hover{
     border: 3px lightblue; 
     border-style: dotted solid; 
 }h1 {
+    border-top: solid blue;
     font-size: 95%;
     color: blue;
     text-indent: 30px;
