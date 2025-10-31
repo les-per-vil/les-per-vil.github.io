@@ -43,9 +43,10 @@ a:focus, a:hover{
     border-style: dotted solid;
 }
 h1{
-    font-size: 100%;
+    font-size: 95%;
     color: blue;
     text-indent: 30px;
+    column-span: all;
 }
 h2{
     font-size: 130%;
