@@ -118,14 +118,12 @@ footer {
     clear: both;
     border-top: 2px solid blue;
 }
-
-footer p.copyright {
-    text-align: center;
-    font-size: 80%;
-}
-footer p.social{
-    text-align: center;
-    font-size: 80%;
+footer .footer-container {
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 10px 1.5em;
+    border-top: 2px solid blue;
 }
 p.fixed {
     width: auto;
