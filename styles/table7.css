@@ -35,3 +35,30 @@ table.second th, table.second td {
 table.second thead tr:first-child{     
     border-bottom: 2px solid purple;
 }
+table.third {    
+    border-collapse: collapse;
+}
+table.third thead {
+    background-color: rgb(156, 144, 238);
+}
+table.third th, table.third td {
+    padding: 0.7em;
+    vertical-align: top;    
+}
+table.third thead tr:first-child{     
+    border-top: 2px solid rgb(255, 0, 76);
+    border-bottom: 2px solid rgb(255, 0, 123);
+}
+table.third thead tr:nth-child(2), table.third tr:last-child {     
+    border-bottom: 2px solid rgb(255, 0, 230);
+}
+/*-----------------------------------------------------------*/
+@media only screen and (max-width: 425px) {
+    th, td {
+        display: block;
+    }
+    thead, td.number {
+        display: none;
+        padding: 0;
+    }    
+}
