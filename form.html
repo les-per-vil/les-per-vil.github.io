@@ -46,7 +46,37 @@
             autocomplete="on"><br>
     </fieldset>
     <fieldset>
-        <legend></legend>
+        <legend> <legend>Membership Information</legend>
+            <label for="membership_type">Membership Type:</label>
+            <select name="membership_type" id="membership_type">
+                <option value="junior">Junior</option>
+                <option value="regular">Regular</option>
+                <option value="charter">Charter</option>
+            </select><br>
+            <label for="starting_date">Starting Date:</label>
+            <input type="date" name="starting_date" id="starting_date" required><br>
+            <label for="tickets">Tickets:</label>
+            <input type="number" name="tickets" id="tickets" min="1" max="4" value="2"><br></legend>
+    </fieldset>
+    <fieldset>
+            <legend>How Did You Hear About Us?</legend>
+            <input type="radio" name="hear_about" id="search_engine" value="search_engine">
+            <label for="search_engine">Search Engine</label><br>
+            <input type="radio" name="hear_about" id="friend" value="friend">
+            <label for="friend">Friend</label><br>
+            <input type="radio" name="hear_about" id="social_media" value="social_media">
+            <label for="social_media">Social Media</label><br>
+            <input type="radio" name="hear_about" id="other" value="other">
+            <label for="other">Other</label><br>
+    </fieldset>
+    <fieldset>
+            <legend>Comments</legend>
+            <textarea name="comments" id="comments" placeholder="Please add any comments here"></textarea>
+    </fieldset>
+    <fieldset id="buttons">
+            <legend>Submit Your Membership</legend>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset Fields">
     </fieldset>
   </form>
 </body>
