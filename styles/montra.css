@@ -3,3 +3,14 @@ margin: 0;
 height: 100%;
 font-size: 100%;
 }
+.top-nav {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+background-color: #00BAF0;
+background: linear-gradient(to left, #a7c5ad, #24833d);
+color: #FFF;
+height: 3em;
+padding: 1em;
+}
