@@ -13,4 +13,9 @@ background: linear-gradient(to left, #a7c5ad, #4ca163);
 color: #FFF;
 height: 3em;
 padding: 1em;
+font-family: 'Times New Roman', Times, serif;
+}
+article p{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
 }
