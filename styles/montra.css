@@ -11,7 +11,7 @@ box-sizing: border-box;
 display: flex;
 flex-direction: row;
 align-items: center;
-justify-content: space-between;
+justify-content:space-evenly;
 background-color: #042d0f;
 background: linear-gradient(to left, #a7c5ad, #4ca163);
 color: #FFF;
