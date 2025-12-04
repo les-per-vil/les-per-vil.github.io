@@ -136,7 +136,7 @@ body {
 
 /* ====================== SERVICES ====================== */
 .services-wrapper {
-    max-width: 1100px;
+    max-width: 300px;
     margin: 40px auto;
     padding: 0 20px;
     display: grid;
@@ -145,7 +145,7 @@ body {
 }
 
 .service-card {
-    max-width: 600px;
+    max-width: 300px;
     margin: 40px auto;
     padding: 25px;
     background-color: #4a704a;
