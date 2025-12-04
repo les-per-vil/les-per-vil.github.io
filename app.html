@@ -6,167 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 
-
-  <!-- ========== STYLE ========== -->
-  <style>
-    *, *::before, *::after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      background: linear-gradient(to bottom, rgb(0, 65, 34) 0%, white 100%);
-      background-repeat: no-repeat;
-      font-family: "Poppins", sans-serif;
-      scroll-behavior: smooth;
-    }
-
-    body {
-      overflow-x: hidden;
-      padding-bottom: 50px;
-    }
-
-    /* ====================== NAVBAR ====================== */
-    .navbar {
-      max-width: 1200px;
-      width: 90%;
-      margin: 0 auto 30px auto;
-      padding: 20px 10px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .navbar h1 {
-      font-size: 26px;
-      color: white;
-      font-weight: 600;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-    }
-
-    .nav-links a {
-      color: white;
-      margin-left: 20px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: 0.3s;
-    }
-
-    .nav-links a:hover { opacity: 0.7; }
-
-    /* ====================== SERVICE CARDS ====================== */
-    .services-wrapper {
-      max-width: 1200px;
-      width: 90%;
-      margin: 0 auto 40px auto;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 25px;
-    }
-
-    .service-card {
-      background: white;
-      padding: 25px;
-      border-radius: 18px;
-      box-shadow: 0 5px 12px rgba(0,0,0,0.1);
-      border-top: 6px solid rgb(0, 65, 34);
-      display: flex;
-      flex-direction: column;
-    }
-
-    .service-card h3 {
-      color: rgb(0, 65, 34);
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-
-    .service-card p { 
-      margin-bottom: 10px; 
-      font-size: 14px;
-    }
-
-    .service-card button {
-      margin-top: auto;
-      padding: 12px;
-      border: none;
-      background: rgb(0,65,34);
-      color: white;
-      border-radius: 10px;
-      cursor: pointer;
-      font-size: 16px;
-      transition: 0.3s;
-    }
-
-    .service-card button:hover {
-      background: rgb(0, 90, 45);
-    }
-
-    /* ====================== BOOKING FORM ====================== */
-    .booking-container {
-      background: white;
-      padding: 30px;
-      border-radius: 20px;
-      width: 90%;
-      max-width: 650px;
-      margin: 40px auto;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      border-top: 6px solid rgb(0, 65, 34);
-    }
-
-    h2 {
-      color: rgb(0, 65, 34);
-      text-align: center;
-      margin-bottom: 20px;
-      font-size: 28px;
-      font-weight: 600;
-    }
-
-    label {
-      font-weight: 500;
-      color: #333;
-    }
-
-    input, select {
-      width: 100%;
-      padding: 12px;
-      border-radius: 10px;
-      border: 1px solid #ccc;
-      margin-top: 6px;
-      font-size: 15px;
-    }
-
-    button.submit-btn {
-      width: 100%;
-      background: rgb(0, 65, 34);
-      color: white;
-      padding: 15px;
-      border: none;
-      border-radius: 12px;
-      margin-top: 20px;
-      font-size: 18px;
-      cursor: pointer;
-      transition: 0.3s ease;
-    }
-
-    button.submit-btn:hover {
-      background: rgb(0, 90, 45);
-    }
-
-    /* ====================== FOOTER ====================== */
-    footer {
-      text-align: center;
-      padding: 30px 10px;
-      color: #fff;
-      font-size: 14px;
-      margin-top: 40px;
-      opacity: 0.9;
-    }
-  </style>
-</head>
-
-<body>
-
   <!-- ====================== NAVBAR ====================== -->
   <div class="navbar">
     <h1>Montra Massage</h1>
@@ -189,25 +28,54 @@
     </div>
 
     <div class="service-card">
-      <h3>Thai/Swedish/Combo/Deep Tissue/Prenatal - 1 hr</h3>
+      <h3>Thai, Swedish, Combo, Deep Tissue, Prenatal - 1 hr</h3>
       <p>Starting at $80</p>
       <button>Book Now</button>
     </div>
 
     <div class="service-card">
-      <h3>Thai/Swedish/Combo/Deep Tissue/Prenatal - 75 mins</h3>
+      <h3>Thai, Swedish, Combo, Deep Tissue, Prenatal - 75 mins</h3>
       <p>Starting at $100</p>
+      <button>Book Now</button>
+    </div>
+
+   <div class="service-card">
+      <h3>Thai, Swedish, Combo, Deep Tissue, Prenatal - 90 mins</h3>
+      <p>Starting at $120</p>
+      <button>Book Now</button>
+    </div>
+
+    <div class="service-card">
+      <h3>Thai, Swedish, Combo, Deep Tissue, Prenatal - 2 hr</h3>
+      <p>Starting at $150</p>
       <button>Book Now</button>
     </div>
 
     <div class="service-card">
       <h3>Couples Massage - 1 hr</h3>
       <p>$150</p>
-      <p>Earned Points: 2</p>
       <button>Book Now</button>
     </div>
 
-    <!-- Add more cards the same way... -->
+     <div class="service-card">
+      <h3>Couples Massage - 75 min</h3>
+      <p>$200</p>
+      <button>Book Now</button>
+    </div>
+
+    <div class="service-card">
+      <h3>Couples Massage - 1 hr</h3>
+      <p>$240</p>
+      <button>Book Now</button>
+    </div>
+
+    <div class="service-card">
+      <h3>Couples Massage - 2 hr</h3>
+      <p>$300</p>
+      <button>Book Now</button>
+    </div>
+
+  
 
   </div>
 
@@ -228,11 +96,11 @@
       <label>Choose Service</label>
       <select required>
         <option>Select service</option>
-        <option>Regular Massage – 40 Mins ($60)</option>
-        <option>Thai/Swedish/Deep Tissue – 1 hr ($80)</option>
-        <option>Thai/Swedish/Deep Tissue – 75 Mins ($100)</option>
-        <option>Couples Massage – 1 hr ($150)</option>
-        <option>Couples Massage – 90 Mins ($240)</option>
+        <option>Regular Massage : 40 Mins ($60)</option>
+        <option>Thai/Swedish/Deep Tissue : 1 hr ($80)</option>
+        <option>Thai/Swedish/Deep Tissue : 75 Mins ($100)</option>
+        <option>Couples Massage : 1 hr ($150)</option>
+        <option>Couples Massage : 90 Mins ($240)</option>
       </select>
 
       <label>Date</label>
