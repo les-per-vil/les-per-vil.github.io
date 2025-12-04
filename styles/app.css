@@ -145,12 +145,13 @@ body {
 }
 
 .service-card {
-    padding: 20px 15px;
-    border-left: 4px solid #388e3c; /* spa green accent */
-    background: transparent;
-    box-shadow: none;
-    border-radius: 0;
-    transition: all 0.2s ease;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #4a704a;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .service-card:hover {
