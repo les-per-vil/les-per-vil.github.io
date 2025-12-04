@@ -27,26 +27,6 @@ body {
     justify-content: space-between;
     position: relative;
     z-index: 1000;
-    background: #a5d6a7; /* light green navbar */
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-
-.navbar h1 {
-    color: #2e7d32; /* dark green text */
-    font-size: 24px;
-}
-
-.navbar a {
-    margin-left: 15px;
-    text-decoration: none;
-    color: #2e7d32;
-    font-weight: 500;
-    transition: color 0.2s ease;
-}
-
-.navbar a:hover {
-    color: #1b5e20;
 }
 
 /* ====================== SERVICES ====================== */
