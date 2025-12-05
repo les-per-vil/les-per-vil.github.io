@@ -12,6 +12,106 @@ html {
     font-family: "Poppins", sans-serif;
     min-height: 100%;
 }
+/* ====================== SPA BOOKING SECTION ====================== */
+
+.booking-section {
+    max-width: 650px;
+    margin: 60px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.90); /* soft glassy white */
+    border-radius: 25px;
+    box-shadow: 
+        0 10px 25px rgba(0, 0, 0, 0.18),
+        0 4px 10px rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.booking-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 
+        0 16px 35px rgba(0, 0, 0, 0.25),
+        0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.booking-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(0, 50, 25);
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* ====================== FORM ELEMENTS (Spa Style) ====================== */
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.booking-form label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: rgb(0, 50, 25);
+    margin-bottom: 3px;
+}
+
+.booking-form input,
+.booking-form select {
+    padding: 14px 15px;
+    border-radius: 14px;
+    border: 1px solid rgba(0, 65, 34, 0.35);
+    background: white;
+    font-size: 1rem;
+    transition: border .25s ease, box-shadow .25s ease;
+}
+
+.booking-form input:focus,
+.booking-form select:focus {
+    border-color: rgb(0, 65, 34);
+    box-shadow: 0 0 0 3px rgba(0, 65, 34, 0.20);
+    outline: none;
+}
+
+/* ====================== SPA BUTTON ====================== */
+
+.submit-btn {
+    padding: 15px;
+    margin-top: 15px;
+    background: rgb(0, 65, 34);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background .3s ease, transform .2s ease;
+}
+
+.submit-btn:hover {
+    background: rgb(0, 90, 50);
+    transform: translateY(-2px);
+}
+
+.submit-btn:active {
+    transform: scale(0.98);
+}
+
+/* ====================== MOBILE ====================== */
+
+@media (max-width: 600px) {
+    .booking-section {
+        padding: 25px;
+        margin: 30px 15px;
+    }
+
+    .booking-section h2 {
+        font-size: 1.6rem;
+    }
+}
 
 /* ====================== NAVBAR ====================== */
 .navbar {
