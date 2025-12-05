@@ -1,127 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Massage Appointment Booking</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/app.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment : Montra Massage</title>
+    <link rel="stylesheet" href="booking.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
-  <!-- ====================== NAVBAR ====================== -->
-  <div class="logo">
-  <img src="images/montra-logo.avif" alt="Montra Thai Massage logo" width="200" height="100">
-  </div>
-    <div class="nav-links">
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">Booking</a>
-      <a href="#">Contact</a>
-    </div>
-  </div>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h1 class="logo">Montra Massage</h1>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a class="active" href="booking.html">Booking</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
 
-  <!-- ====================== SERVICE CARDS ====================== -->
-  <div class="services-wrapper">
+    <!-- BOOKING FORM -->
+    <section class="booking-section">
+        <h2>Book Your Appointment</h2>
 
-    <div class="service-card">
-      <h3>Regular Massage - 40 mins</h3>
-      <p>Starting at $60</p>
-      <p>Uses massage oils to facilitate smooth, gliding strokes over the entire body.</p>
-      <button>Book Now</button>
-    </div>
+        <form class="booking-form">
 
-    <div class="service-card">
-      <h3>Thai, Swedish, Combo, Deep Tissue, Prenatal - 1 hr</h3>
-      <p>Starting at $80</p>
-      <p>Uses massage oils to facilitate smooth, gliding strokes over the entire body.</p>
-      <button>Book Now</button>
-    </div>
+            <label>Full Name</label>
+            <input type="text" placeholder="Your name" required>
 
-    <div class="service-card">
-      <h3>Thai, Swedish, Combo, Deep Tissue, Prenatal - 75 mins</h3>
-      <p>Starting at $100</p>
-      <p>Uses massage oils to facilitate smooth, gliding strokes over the entire body.</p>
-      <button>Book Now</button>
-    </div>
+            <label>Email Address</label>
+            <input type="email" placeholder="you@example.com" required>
 
-   <div class="service-card">
-      <h3>Thai, Swedish, Combo, Deep Tissue, Prenatal - 90 mins</h3>
-      <p>Starting at $120</p>
-      <p>Uses massage oils to facilitate smooth, gliding strokes over the entire body.</p>
-      <button>Book Now</button>
-    </div>
+            <label>Phone Number</label>
+            <input type="text" placeholder="(555) 555-5555" required>
 
-    <div class="service-card">
-      <h3>Thai, Swedish, Combo, Deep Tissue, Prenatal - 2 hr</h3>
-      <p>Starting at $150</p>
-      <p>Uses massage oils to facilitate smooth, gliding strokes over the entire body.</p>
-      <button>Book Now</button>
-    </div>
+            <label>Select Service</label>
+            <select required>
+                <option disabled selected>Select a massage</option>
+                <option>Regular Massage – 40 mins ($60)</option>
+                <option>Thai/Swedish/Combo/Deep Tissue – 1 hr ($80)</option>
+                <option>Thai/Swedish/Combo/Deep Tissue – 75 mins ($100)</option>
+                <option>Couples Massage – 1 hr ($150)</option>
+                <option>Couples Massage – 2 hr ($300)</option>
+            </select>
 
-    <div class="service-card">
-      <h3>Couples Massage - 1 hr</h3>
-      <p>$150</p>
-      <button>Book Now</button>
-    </div>
+            <label>Select Date</label>
+            <input type="date" required>
 
-     <div class="service-card">
-      <h3>Couples Massage - 75 min</h3>
-      <p>$200</p>
-      <button>Book Now</button>
-    </div>
+            <label>Select Time</label>
+            <input type="time" required>
 
-    <div class="service-card">
-      <h3>Couples Massage - 1 hr</h3>
-      <p>$240</p>
-      <button>Book Now</button>
-    </div>
+            <button type="submit" class="submit-btn">Submit Appointment</button>
 
-    <div class="service-card">
-      <h3>Couples Massage - 2 hr</h3>
-      <p>$300</p>
-      <button>Book Now</button>
-    </div>
+        </form>
+    </section>
 
-  
-
-  </div>
-
-  <!-- ====================== BOOKING FORM ====================== -->
-  <div class="booking-container">
-    <h2>Book Your Appointment</h2>
-
-    <form>
-      <label>Full Name</label>
-      <input type="text" required>
-
-      <label>Email</label>
-      <input type="email" required>
-
-      <label>Phone</label>
-      <input type="text" required>
-
-      <label>Choose Service</label>
-      <select required>
-        <option>Select service</option>
-        <option>Regular Massage : 40 Mins ($60)</option>
-        <option>Thai/Swedish/Deep Tissue : 1 hr ($80)</option>
-        <option>Thai/Swedish/Deep Tissue : 75 Mins ($100)</option>
-        <option>Couples Massage : 1 hr ($150)</option>
-        <option>Couples Massage : 90 Mins ($240)</option>
-      </select>
-
-      <label>Date</label>
-      <input type="date" required>
-
-      <label>Time</label>
-      <input type="time" required>
-
-      <button class="submit-btn">Submit Appointment</button>
-    </form>
-  </div>
-
-  <!-- ====================== FOOTER ====================== -->
-  <footer>
-    © 2025 Montra Massage — Relax. Restore. Rejuvenate.
-  </footer>
+    <footer>
+        © 2025 Montra Massage — Relax. Restore. Rejuvenate.
+    </footer>
 
 </body>
 </html>
